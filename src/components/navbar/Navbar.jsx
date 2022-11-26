@@ -44,27 +44,27 @@ function Navbar({ cart, removeItemFromCart }) {
       <h1 className="nav__logo">sneakers</h1>
       <ul className="nav__list nav__list-links flex">
         <li className="nav__list-item">
-          <a href="#" className="nav__list-link">
+          <a href="/" className="nav__list-link">
             Collections
           </a>
         </li>
         <li className="nav__list-item">
-          <a href="#" className="nav__list-link">
+          <a href="/" className="nav__list-link">
             Men
           </a>
         </li>
         <li className="nav__list-item">
-          <a href="#" className="nav__list-link">
+          <a href="/" className="nav__list-link">
             Women
           </a>
         </li>
         <li className="nav__list-item">
-          <a href="#" className="nav__list-link">
+          <a href="/" className="nav__list-link">
             About
           </a>
         </li>
         <li className="nav__list-item">
-          <a href="#" className="nav__list-link">
+          <a href="/" className="nav__list-link">
             Contact
           </a>
         </li>
