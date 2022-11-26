@@ -23,7 +23,7 @@ function Product({ addToCart }) {
             <div className="btn__close">
               <img
                 src={closeIcon}
-                alt=""
+                alt="close button"
                 className="btn__close-icon"
                 onClick={() => setShowModal((p) => !p)}
               />
@@ -32,6 +32,7 @@ function Product({ addToCart }) {
             <img
               src={data.images[imageIndex]}
               className="product__main-image"
+              alt=""
             />
 
             <div className="product__thumbnail-container modal__thumbnail-container flex">
@@ -50,6 +51,7 @@ function Product({ addToCart }) {
                     style={{
                       opacity: imageIndex === i && 0.2,
                     }}
+                    alt="thumbnail"
                   />
                 </div>
               ))}
@@ -62,6 +64,7 @@ function Product({ addToCart }) {
           src={data.images[imageIndex]}
           className="product__main-image"
           onClick={() => setShowModal((p) => !p)}
+          alt=""
         />
         <div className="product__slider">
           <div
@@ -96,6 +99,7 @@ function Product({ addToCart }) {
                 style={{
                   opacity: imageIndex === i && 0.2,
                 }}
+                alt="thumbnail"
               />
             </div>
           ))}
